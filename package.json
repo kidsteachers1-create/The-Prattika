@@ -4,7 +4,7 @@
   "description": "An AI-powered news website.",
   "scripts": {
     "dev": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=./ react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -12,8 +12,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "tailwindcss": "^3.4.1",
-    "cross-env": "^7.0.3"
+    "tailwindcss": "^3.4.1"
   },
   "browserslist": {
     "production": [
@@ -28,4 +27,3 @@
     ]
   }
 }
-

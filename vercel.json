@@ -1,15 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build"
+  "build": {
+    "env": {
+      "REACT_APP_BUILD_TARGET": "vercel"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "index.html"
-    }
-  ]
+  }
 }

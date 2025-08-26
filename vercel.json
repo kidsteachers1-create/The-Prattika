@@ -1,7 +1,9 @@
 {
-  "build": {
-    "env": {
-      "REACT_APP_BUILD_TARGET": "vercel"
-    }
-  }
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
